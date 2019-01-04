@@ -1,0 +1,19 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "fedex": "git+https://github.com/fabrizioorsi/fedex.git",
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.1.0",
+    "ups-shipping-api": "git+https://github.com/fabrizioorsi/ups-shipping-api",
+    "node-shipping-dhl": "git+https://github.com/fabrizioorsi/node-shipping-dhl.git"
+  },
+  "private": true
+}
