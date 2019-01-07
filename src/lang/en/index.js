@@ -65,6 +65,7 @@ export default {
   slots: 'Slots',
   selectable: 'Selectable',
   searchRow: 'Search Row',
+  searchAddressBook: 'Search Address Book',
   maps: 'Maps',
   googleMaps: 'Google Maps',
   leafletMaps: 'Leaflet Maps',
